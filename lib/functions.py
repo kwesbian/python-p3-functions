@@ -1,16 +1,22 @@
 #!/usr/bin/env python3
 
 def greet_programmer():
-    pass
+    print("Hello, programmer!")
 
 def greet(name):
-    pass
+    print(f"Hello, {name}!")
 
 def greet_with_default(name="programmer"):
-    pass
+    print(f"Hello, {name}!")
 
 def add(num1, num2):
-    pass
+    return num1 + num2
 
 def halve(number):
-    pass
+    if not isinstance(number, (int, float)):
+            # The code above checks if the variable `number` is not  an instance of the `int` or `float` data type.
+            # `isinstance` => checks if a variable is a certain data type.
+            # `(int, float)` => tuple being checked. isinstance checks whether `number` is an instance of either the int class or the float class.
+        return None
+    
+    return number / 2
