@@ -18,5 +18,6 @@ def halve(number):
             # `isinstance` => checks if a variable is a certain data type.
             # `(int, float)` => tuple being checked. isinstance checks whether `number` is an instance of either the int class or the float class.
         return None
+        # `None` should begin with capital so as to interpret it as a string
     
     return number / 2
